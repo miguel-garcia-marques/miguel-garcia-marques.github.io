@@ -1,9 +1,36 @@
 body {
-    background-color: rgb(111, 9, 9);
+    background-color: white;
 }
   
 h1 {
-    color: rgb(10, 69, 10);
+    color: black;
     margin-left: 20px;
     margin-right: 20px;
+    display: block;
+    margin: auto;
+}
+
+.btn-group button {
+    background-color: black; /* Green background */
+    border: 1px solid black; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    margin: auto;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    size: 20px;
 }
