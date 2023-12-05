@@ -2,5 +2,5 @@ const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012345678
 
 window.onload =function generateString() {
     let result = Math.floor(Math.random() * charactersLength);
-    document.getElementById("frase").innerHTML = result;
+    document.getElementById("frase").innerHTML = result.toString;
 }
